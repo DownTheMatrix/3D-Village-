@@ -5,6 +5,7 @@ const fadeModal = setInterval(function() {
     modal.style.opacity = 1;
 }, 2000);
 
+/* Enable Camera Rotation */
 function rotateCamera() {
     window.addEventListener("keydown", function() {
         if(event.code === "Enter") {
