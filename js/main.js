@@ -1,6 +1,5 @@
 /* Toggle Modal: On/Off */
 const modal = document.querySelector(".modal");
-const heading = document.querySelector(".heading");
 
 const fadeModal = setInterval(function() {
     modal.style.opacity = 1;
@@ -11,12 +10,10 @@ function rotateCamera() {
     window.addEventListener("keydown", function() {
         if(event.code === "Enter") {
             modal.style.opacity = 0;
-            heading.style.opacity = 1;
             clearInterval(fadeModal);
             controls.autoRotate = true;
         } else if(event.code === "Space") {
             modal.style.opacity = 1;
-            heading.style.opacity = 0;
             controls.autoRotate = false;
         }
     })
