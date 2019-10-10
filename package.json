@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "nodemon": "^1.19.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0"
   }
 }

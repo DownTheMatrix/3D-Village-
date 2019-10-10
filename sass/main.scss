@@ -24,11 +24,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity .4s;
 }
 
 .modal {
     background-color: rgba(0,0,0,0.8);
-    width: 35rem;
+    width: 45rem;
     height: 35rem;
     position: absolute;
     top: 50%;
