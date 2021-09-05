@@ -16,7 +16,8 @@
     "kind-of": "^6.0.3",
     "minimist": "^1.2.5",
     "nodemon": "^1.19.3",
-    "tar": "^6.1.11"
+    "tar": "^6.1.11",
+    "trim-newlines": "^4.0.2"
   },
   "devDependencies": {
     "node-sass": "^4.14.1"
