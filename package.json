@@ -14,7 +14,8 @@
     "dot-prop": "^5.2.0",
     "kind-of": "^6.0.3",
     "minimist": "^1.2.5",
-    "nodemon": "^1.19.3"
+    "nodemon": "^1.19.3",
+    "tar": "^6.1.11"
   },
   "devDependencies": {
     "node-sass": "^4.14.1"
