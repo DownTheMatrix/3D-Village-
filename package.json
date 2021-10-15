@@ -17,6 +17,7 @@
     "kind-of": "^6.0.3",
     "minimist": "^1.2.5",
     "nodemon": "^1.19.3",
+    "set-value": "^4.1.0",
     "tar": "^6.1.11",
     "trim-newlines": "^4.0.2"
   },
